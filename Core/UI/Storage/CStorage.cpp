@@ -9,6 +9,7 @@ CStorage::CStorage(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->StorageContent->addWidget(new CStorageChanger());
+    Core->DMS;
 }
 
 CStorage::~CStorage()
